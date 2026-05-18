@@ -1,4 +1,10 @@
-.PHONY: lint lint-fix
+.PHONY: run build lint lint-fix
+
+run:
+	wails dev
+
+build:
+	wails build
 
 lint:
 	golangci-lint run ./...
