@@ -1,0 +1,16 @@
+html {
+    background-color: #0f0f0f;
+    color: #e6e6e6;
+}
+
+body {
+    margin: 0;
+    color: #e6e6e6;
+    font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+    height: 100vh;
+}

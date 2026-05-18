@@ -1,0 +1,24 @@
+version: "2"
+
+run:
+  timeout: 2m
+
+linters:
+  default: none
+  enable:
+    - govet
+    - whitespace
+    - staticcheck
+
+  settings:
+    whitespace:
+      multi-if: false
+      multi-func: false
+
+formatters:
+  enable:
+    - gofmt
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
